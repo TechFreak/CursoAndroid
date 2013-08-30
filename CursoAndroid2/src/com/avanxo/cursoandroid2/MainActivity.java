@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 		editTextValorLibras = (EditText) findViewById(R.id.editTextValorLibras);
 		buttonConvertirALibras = (Button) findViewById(R.id.buttonConvertirALibras);
 		buttonConvertirAKilos = (Button) findViewById(R.id.buttonConvertirAKilos);
-//		textViewResultado = (TextView) findViewById(R.id.textViewResultado);
+		textViewResultado = (TextView) findViewById(R.id.textViewResultado);
 
 		// definir que hacer cuando el usuario hace click en los botones
 		buttonConvertirAKilos.setOnClickListener(new OnClickListener() {
@@ -45,9 +45,9 @@ public class MainActivity extends Activity {
 				// convierto el valor a un float y realizo la conversión
 				float librasFloat = Float.parseFloat(librasString);
 				float kilosFloat = librasFloat / LIBRAS_POR_KILO;
-//				textViewResultado.setText(getString(
-//						R.string.resultado_libras_a_kilos, librasFloat,
-//						kilosFloat));
+				textViewResultado.setText(getString(
+						R.string.resultado_libras_a_kilos, librasFloat,
+						kilosFloat));
 
 			}
 		});
@@ -66,9 +66,9 @@ public class MainActivity extends Activity {
 				// convierto el valor a un float y realizo la conversión
 				float kilosFloat = Float.parseFloat(kilosString);
 				float librasFloat = kilosFloat * LIBRAS_POR_KILO;
-//				textViewResultado.setText(getString(
-//						R.string.resultado_kilos_a_libras, kilosFloat,
-//						librasFloat));
+				textViewResultado.setText(getString(
+						R.string.resultado_kilos_a_libras, kilosFloat,
+						librasFloat));
 
 			}
 		});

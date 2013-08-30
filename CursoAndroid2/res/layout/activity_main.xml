@@ -90,6 +90,14 @@
                     android:layout_weight="1"
                     android:text="@string/boton_label_convertir_a_kilos" />
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewResultado"
+                android:layout_below="@+id/linearLayoutLibrasAKilos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
         </RelativeLayout>
     </RelativeLayout>
 
