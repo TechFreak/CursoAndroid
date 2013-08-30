@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CursoAndroid2</string>
+    <string name="app_name">CursoAndroid2a</string>
     <string name="titulo_activity">Bienvenido a su conversor de unidades</string>
     <string name="limitaciones_primera_version">Por ahora solo podemos convertir de libras a kilogramos y viceversa</string>
     <string name="boton_label_convertir_a_libras">Convertir a Libras</string>
