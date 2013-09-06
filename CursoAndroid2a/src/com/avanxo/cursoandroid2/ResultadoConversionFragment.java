@@ -19,7 +19,6 @@ public class ResultadoConversionFragment extends Fragment {
 		args.putString(CONVERSION_RESULT_TAG, result);
 		f.setArguments(args);
 		return f;
-
 	}
 
 	@Override

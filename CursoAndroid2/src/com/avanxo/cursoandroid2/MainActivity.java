@@ -29,6 +29,10 @@ public class MainActivity extends Activity {
 		buttonConvertirALibras = (Button) findViewById(R.id.buttonConvertirALibras);
 		buttonConvertirAKilos = (Button) findViewById(R.id.buttonConvertirAKilos);
 		textViewResultado = (TextView) findViewById(R.id.textViewResultado);
+		
+		if(savedInstanceState!=null){
+			textViewResultado.setText(savedInstanceState.getString("resultado"));
+		}
 
 		// definir que hacer cuando el usuario hace click en los botones
 		buttonConvertirAKilos.setOnClickListener(new OnClickListener() {
@@ -72,6 +76,13 @@ public class MainActivity extends Activity {
 
 			}
 		});
+	}
+
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		outState.putString("resultado", textViewResultado.getText().toString());
+		
 	}
 
 }
