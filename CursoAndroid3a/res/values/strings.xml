@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CursoAndroid3a</string>
+    <string name="titulo_activity">Bienvenido a su conversor de unidades</string>
+    <string name="limitaciones_primera_version">Por ahora solo podemos convertir de libras a kilogramos y viceversa</string>
+    <string name="boton_label_convertir_a_libras">Convertir a Libras</string>
+    <string name="boton_label_convertir_a_kilos">Convertir a Kilos</string>
+    <string name="resultado_kilos_a_libras">%1$f kilos son %2$f libras</string>
+    <string name="resultado_libras_a_kilos">%1$f libras son %2$f kilos</string>
+    <string name="etiqueta_resultado_anterior">Resultado Anterior</string>
+    <string name="boton_exportar">Exportar</string>
+
+</resources>

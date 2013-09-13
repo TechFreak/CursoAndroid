@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="limitaciones_primera_version">Por ahora solo podemos convertir de libras a kilogramos y viceversa, en unas semanas podremos hacer mas</string>
+</resources>
